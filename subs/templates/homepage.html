@@ -1,4 +1,5 @@
 {% extends "site_base.html" %}
+{% load staticfiles %}
 
 {% load i18n %}
 
@@ -10,7 +11,7 @@
     <section class="jumbotron">
         <div class="container">
             {% include "_messages.html" %}
-            <h1>{% blocktrans %}Welcome to<br>pinax-project-account{% endblocktrans %}</h1>
+            <h1 align="center">{% blocktrans %}Toking Era{% endblocktrans %}</h1>
             <p>
                 {% blocktrans %}
                 In addition to what is provided by the "zero" project, this project
@@ -62,6 +63,14 @@
                     {% endblocktrans %}
                 </div>
             </div>
+
+
+        <div class="row">
+          <div class="col-xs-6 col-md-4"> <img src="{%  static 'imgs/dog-1212400_1280.jpg' %}"  height="100%" width="100%" alt="..." class="img-circle" /> </div>
+          <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+           <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        </div>
+
         </div>
     </section>
     <section>
